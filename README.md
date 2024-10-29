@@ -1,4 +1,4 @@
-# Web Development Project 6 - *Data Dashboard Update*
+![Kapture 2024-10-28 at 23 48 14](https://github.com/user-attachments/assets/9f2289c7-6cb1-4089-b832-26161c9f6ec3)# Web Development Project 6 - *Data Dashboard Update*
 
 Submitted by: **Kristal Hong**
 
@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough:
+![Kapture 2024-10-28 at 23 48 14](https://github.com/user-attachments/assets/2bd26ee3-3c91-4bee-9d06-5beb4443c4b8)
 
 
 GIF created with [Kap](https://getkap.co/) for macOS
