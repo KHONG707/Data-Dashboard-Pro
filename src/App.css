@@ -1,0 +1,117 @@
+/* src/App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1200px;
+  height: 90%;
+  max-height: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-bar, .filter-select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+
+/* General layout */
+.data-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.data-item {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fafafa;
+  transition: background-color 0.2s;
+}
+
+.data-item:hover {
+  background-color: #f0f0f0;
+}
+
+.data-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pokemon-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.data-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.pokemon-id {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.pokemon-types {
+  font-size: 0.8rem;
+  color: #333;
+  margin-top: 2px; /* Small spacing between ID and types */
+}
+
+.chart {
+  margin-top: 20px;
+  text-align: center;
+}
